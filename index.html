@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Afia Farzana</title>
+    <link rel="icon" type="image/png" href="/profile.png">
+    <script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     <style>
         * {
@@ -89,7 +92,7 @@
 
         /* Navigation */
         nav {
-            padding: 30px 0;
+            padding: 20px 0;
             position: sticky;
             top: 0;
             background: rgba(248, 246, 241, 0.95);
@@ -122,13 +125,16 @@
             color: var(--text-secondary);
             text-decoration: none;
             transition: color 0.3s;
-            font-size: 14px;
+            font-size: 18px;
+            font-family: 'Cormorant Garamond', serif;
             font-weight: 400;
             letter-spacing: 0.5px;
         }
 
         .nav-links a:hover {
+            transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
             color: var(--charcoal);
+            transform: translateY(-3px);
         }
 
         /* Hero Section */
@@ -657,11 +663,11 @@
         <div class="container">
             <div class="logo">Afia Farzana</div>
             <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#journey">Journey</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#skills"><i class="fas fa-tools"></i> Skills</a></li>
+                <li><a href="#projects"><i class="fas fa-laptop-code"></i> Projects</a></li>
+                <li><a href="#journey"><i class="fas fa-route"></i> Journey</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
             </ul>
         </div>
     </nav>
